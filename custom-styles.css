@@ -1,0 +1,42 @@
+/* Custom styles for Allianz Social Media Consulting */
+
+/* Make the top navigation logo bigger */
+.navbar-brand .logo-light,
+.navbar-brand .logo-dark {
+    width: 120px !important;
+    height: auto !important;
+}
+
+/* Ensure proper logo sizing in header */
+.header .navbar-brand img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Additional custom styles can be added here */
+
+/* Footer logo styling */
+.footer-logo {
+    max-width: 120px;
+    height: auto;
+    filter: brightness(0) invert(1); /* Ensures logo appears white */
+}
+
+/* Make the header arrow button smaller */
+.arrow-btn.animated-arrow-hover {
+    transform: scale(0.7);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+}
+
+.arrow-btn.animated-arrow-hover .animated-arrow {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0;
+    padding: 0;
+} 
